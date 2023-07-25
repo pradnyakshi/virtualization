@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    background: url("https://miro.medium.com/max/2000/1*aTPoc2vSaWmEOV9BuGvSQA.jpeg") no-repeat center center/cover;
+}
+#id{
+    margin: 3rem 0;
+    padding: 3rem 2rem;
+    mix-blend-mode: screen;
+    background: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    line-height: 1.8;
+    transition: all 0.5s;
+}
+#id:hover{
+    letter-spacing: 0.2rem;
+}
+@media (max-width: 981px)
+{
+    #id{
+        font-size: 4.5rem;
+    }
+}
+@media (max-width: 500px)
+{
+    #id{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 300px)
+{
+    #id{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .info > *{
+    margin: 0.5rem 0;
+}
+.container .line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.container .line > *{
+    margin: 0.5rem 0;
+}
+.btn{
+    height: 2rem;
+    width: 8rem;
+    background: #673D4D;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    letter-spacing: 0.2rem;
+}
+#ele{
+    border: 2px solid #673D4D;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.x{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #fff;
+    background: #E8F0FE;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+#value{
+    border: 2px solid #673D4D;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    background-color: #eee;
+}
+.valueBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.valueBox .btn{
+    font-size: 1rem;
+    width: 11rem;
+}
+.valueBox .btn:hover{
+    letter-spacing: 0.05rem;
+}
+.board{
+    width: 70vw;
+    height: 70vh;
+    background-color: #110D0E;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+}
+#arrow{
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+    display: none;
+}
+#result{
+    margin-top: 3rem;
+    color: #fff;
+}
+#try{
+    height: 3vw;
+    width: 9vw;
+    font-size: 0.7vw;
+    background-color: hotpink;
+    margin: 10px 0;
+}

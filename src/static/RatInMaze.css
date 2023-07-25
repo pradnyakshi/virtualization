@@ -1,0 +1,29 @@
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading{
+    margin: 4px auto;
+    color: cornflowerblue;
+}
+.int{
+    height: 30px;
+    width: 30px;
+    background-color: bisque;
+    border-radius: 50%;   
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+}
+#submit{
+    height: 3vw;
+    width: 8vw;
+    background-color: #673D4D;
+    color: white;
+    margin: 10px 0;
+    font-size: 1vw;
+}
