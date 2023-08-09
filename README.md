@@ -50,14 +50,14 @@ The "Rat in a Maze" problem is a classic computer science puzzle that involves f
 
 the steps to solve the Rat in a Maze problem:
 
-&nbsp; 1.Define the maze as a grid.
-&nbsp; 2.Start from the initial position (usually the top-left corner).
-&nbsp; 3.If the current position is the destination, the path is found.
-&nbsp; 4.Check if the current position is valid (within the maze and not blocked).
-&nbsp; 5.If valid, mark the current position as visited.
-&nbsp; 6.Recursively try to move in two directions (down ,right).
-&nbsp; 7.If a valid path is found in any direction, return true.
-&nbsp; 8.If no valid paths are found, backtrack by marking the current position as unvisited and return false.
+&nbsp; 1.Define the maze as a grid.\
+&nbsp; 2.Start from the initial position (usually the top-left corner).\
+&nbsp; 3.If the current position is the destination, the path is found.\
+&nbsp; 4.Check if the current position is valid (within the maze and not blocked).\
+&nbsp; 5.If valid, mark the current position as visited.\
+&nbsp; 6.Recursively try to move in two directions (down ,right).\
+&nbsp; 7.If a valid path is found in any direction, return true.\
+&nbsp; 8.If no valid paths are found, backtrack by marking the current position as unvisited and return false.\
 
 ![Capture5](https://github.com/pradnyakshi/virtualization/assets/90089158/5eca9895-9cf0-4f91-a0ed-32b615116c18)
 ![Capture6](https://github.com/pradnyakshi/virtualization/assets/90089158/92e64100-d1f0-4e83-9a28-9ee54c38faca)
