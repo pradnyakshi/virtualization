@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Linear and Binary search algorithm and Rat in Maze problem visualization 
 
-## Available Scripts
+## Home Page
 
-In the project directory, you can run:
+![Capture](https://github.com/pradnyakshi/virtualization/assets/90089158/15fcc620-1d4f-48c4-b2fd-033520bc230f)
 
-### `npm start`
+### `Linear Search`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Linear search is a basic searching algorithm that sequentially checks each element\
+in a collection to find a specific target element.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The steps in a linear search are as follows:
 
-### `npm test`
+&nbsp;  1.Start at the beginning of the collection.\
+&nbsp;  2.Compare the current element with the target element you are searching for.\
+&nbsp;  3.If the current element matches the target element, the search is successful.\
+&nbsp;  4.If the current element does not match the target element, move to the next element in the collection.\
+&nbsp; 5.Repeat steps 2-4 until either the target element is found or the end of the collection is reached.\
+&nbsp; 6.If the end of the collection is reached without finding the target element, the search is unsuccessful.\
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Capture1](https://github.com/pradnyakshi/virtualization/assets/90089158/d8cf062b-e6bf-4c3e-ac97-ef03299d2817)
+![Capture2](https://github.com/pradnyakshi/virtualization/assets/90089158/8948d59c-330f-4dba-aac8-5e1a06450572)
 
-### `npm run build`
+### `Binary Search`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Binary search is a fast and efficient searching algorithm used to locate a 
+specific target element within a sorted collection (such as an array or list)
+by repeatedly dividing the collection into halves and eliminating the half
+in which the target cannot be located, ultimately zeroing in on the desired element.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The steps in a binary search are as follows:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+&nbsp; 1.Set low and high indices.\
+&nbsp; 2.Calculate the middle index.\
+&nbsp; 3.Compare middle element with target.\
+&nbsp; 4.If equal, search successful.\
+&nbsp; 5.If target is smaller, update high index.\
+&nbsp; 6.If target is larger, update low index.\
+&nbsp; 7.Repeat 3-7 until found or indices cross.\
+&nbsp; 8.If indices cross, search unsuccessful.\
+![Capture3](https://github.com/pradnyakshi/virtualization/assets/90089158/5bd26a7d-35ca-463a-bb2b-ed6892700bf7)
 
-### `npm run eject`
+![Capture4](https://github.com/pradnyakshi/virtualization/assets/90089158/5bd19725-f6dd-45fe-ab9c-f0c7b08f10a3)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Rat in maze`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The "Rat in a Maze" problem is a classic computer science puzzle that involves finding a path for a rat to navigate from the starting point to the destination point in a maze. The maze is represented as a grid with cells, some of which may be blocked (obstacles) and some of which are open (passable).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+the steps to solve the Rat in a Maze problem:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+&nbsp; 1.Define the maze as a grid.
+&nbsp; 2.Start from the initial position (usually the top-left corner).
+&nbsp; 3.If the current position is the destination, the path is found.
+&nbsp; 4.Check if the current position is valid (within the maze and not blocked).
+&nbsp; 5.If valid, mark the current position as visited.
+&nbsp; 6.Recursively try to move in two directions (down ,right).
+&nbsp; 7.If a valid path is found in any direction, return true.
+&nbsp; 8.If no valid paths are found, backtrack by marking the current position as unvisited and return false.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Capture5](https://github.com/pradnyakshi/virtualization/assets/90089158/5eca9895-9cf0-4f91-a0ed-32b615116c18)
+![Capture6](https://github.com/pradnyakshi/virtualization/assets/90089158/92e64100-d1f0-4e83-9a28-9ee54c38faca)
